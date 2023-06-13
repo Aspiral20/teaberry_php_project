@@ -1,0 +1,40 @@
+#tea-contacts {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#tea-contacts-container {
+    padding: 70px 0 30px 0;
+}
+
+#tea-contacts-container .content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tea-contacts-container .contact_container {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    grid-template-rows: repeat(3, auto);
+    grid-row-gap: 15px;
+}
+#tea-contacts-container .section {
+    font-size: 18px;
+    color: rgba(90, 124, 55, .65);
+    font-family: "Gilroy-Bold", sans-serif;
+}
+#tea-contacts-container .logo {
+}
+
+#tea-contacts-container .logo svg {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    opacity: .85;
+    fill: rgb(90, 124, 55);
+}

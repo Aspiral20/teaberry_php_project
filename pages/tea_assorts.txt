@@ -1,0 +1,153 @@
+//html cod:
+
+<!--                <div id="white-container">-->
+<!--                    --><?php
+//                    $id_table = 0;      //whitetea
+//
+//
+//                    ?>
+<!--                    <div class="tea-container">-->
+<!--                        --><?php
+//                        $id_element = 1;
+//                        $DB_element = DB_EXTRACT_ELEMENT($MYSQL, $_tables, $id_table, $id_element);
+//                        ?>
+<!--                        <div class="tea-container-img">-->
+<!--                            --><?php
+//                            $img = $DB_element['img'];
+//                            echo "<img src='../images/tea_main/$img' alt=''>";
+//                            ?>
+<!--                        </div>-->
+<!--                        <div class="assort__container">-->
+<!--                            <h1 class="title">-->
+<!--                                --><?php
+//                                echo $DB_element['name'];
+//                                ?>
+<!--                            </h1>-->
+<!--                            <div class="text">-->
+<!--                                --><?php //echo $DB_element['content']; ?>
+<!--                            </div>-->
+<!--                            <div class="quantity_price">-->
+<!--                                <div class="quantity">-->
+<!--                                    --><?php //echo $DB_element['quantity'] . ' гр'; ?>
+<!--                                    &nbsp;/-->
+<!--                                </div>-->
+<!--                                <div class="price">-->
+<!--                                    &nbsp;-->
+<!--                                    --><?php //echo $DB_element['price'] . ' руб'; ?>
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="product-content-submit">-->
+<!--                                <img class="submit-image" src="../images/tea_main/carousel-button-leaves.png" alt="">-->
+<!--                                <button type="button" class="open-modal" id="white1" data-value="Baihao Yinzhen">Купить</button>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="tea-container">-->
+<!--                        --><?php
+//                        $id_element++;
+//                        $DB_element = DB_EXTRACT_ELEMENT($MYSQL, $_tables, $id_table, $id_element);
+//                        ?>
+<!--                        <div class="tea-container-img">-->
+<!--                            --><?php
+//                            $img = $DB_element['img'];
+//                            echo "<img src='../images/tea_main/$img' alt=''>";
+//                            ?>
+<!--                        </div>-->
+<!--                        <div class="assort__container">-->
+<!--                            <h1 class="title">-->
+<!--                                --><?php
+//                                echo $DB_element['name'];
+//                                ?>
+<!--                            </h1>-->
+<!--                            <div class="text">-->
+<!--                                --><?php //echo $DB_element['content']; ?>
+<!--                            </div>-->
+<!--                            <div class="quantity_price">-->
+<!--                                <div class="quantity">-->
+<!--                                    --><?php //echo $DB_element['quantity'] . ' гр'; ?>
+<!--                                    &nbsp;/-->
+<!--                                </div>-->
+<!--                                <div class="price">-->
+<!--                                    &nbsp;-->
+<!--                                    --><?php //echo $DB_element['price'] . ' руб'; ?>
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="product-content-submit">-->
+<!--                                <img class="submit-image" src="../images/tea_main/carousel-button-leaves.png" alt="">-->
+<!--                                <button type="button" class="open-modal" id="white1" data-value="Baihao Yinzhen">Купить</button>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="tea-container">-->
+<!--                        --><?php
+//                        $id_element++;
+//                        $DB_element = DB_EXTRACT_ELEMENT($MYSQL, $_tables, $id_table, $id_element);
+//                        ?>
+<!--                        <div class="tea-container-img">-->
+<!--                            --><?php //$img = $DB_element['img'];
+//                            echo "<img src='../images/tea_main/$img' alt=''>";
+//                            ?>
+<!--                        </div>-->
+<!--                        <div class="assort__container">-->
+<!--                            <h1 class="title">-->
+<!--                                --><?php
+//                                echo $DB_element['name'];
+//                                ?>
+<!--                            </h1>-->
+<!--                            <div class="text">-->
+<!--                                --><?php //echo $DB_element['content']; ?>
+<!--                            </div>-->
+<!--                            <div class="quantity_price">-->
+<!--                                <div class="quantity">-->
+<!--                                    --><?php //echo $DB_element['quantity'] . ' гр'; ?>
+<!--                                    &nbsp;/-->
+<!--                                </div>-->
+<!--                                <div class="price">-->
+<!--                                    &nbsp;-->
+<!--                                    --><?php //echo $DB_element['price'] . ' руб'; ?>
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="product-content-submit">-->
+<!--                                <img class="submit-image" src="../images/tea_main/carousel-button-leaves.png" alt="">-->
+<!--                                <button type="button" class="open-modal" id="white1" data-value="Baihao Yinzhen">Купить</button>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+
+<!--                    <div class="tea-container">-->
+<!--                        --><?php
+//                        $DB_element = DB_EXTRACT_ELEMENT($MYSQL, $_tables, $id_table, $id_element);
+//                        ?>
+<!--                        <div class="tea-container-img">-->
+<!--                            --><?php
+//                            $img = $DB_element['img'];
+//                            echo "<img src='../images/tea_main/$img' alt=''>";
+//                            ?>
+<!--                        </div>-->
+<!--                        <div class="assort__container">-->
+<!--                            <h1 class="title">-->
+<!--                                --><?php
+//                                echo $DB_element['name'];
+//                                ?>
+<!--                            </h1>-->
+<!--                            <div class="text">-->
+<!--                                --><?php //echo $DB_element['content']; ?>
+<!--                            </div>-->
+<!--                            <div class="quantity_price">-->
+<!--                                <div class="quantity">-->
+<!--                                    --><?php //echo $DB_element['quantity'] . ' гр'; ?>
+<!--                                    &nbsp;/-->
+<!--                                </div>-->
+<!--                                <div class="price">-->
+<!--                                    &nbsp;-->
+<!--                                    --><?php //echo $DB_element['price'] . ' руб'; ?>
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="product-content-submit">-->
+<!--                                <img class="submit-image" src="../images/tea_main/carousel-button-leaves.png" alt="">-->
+<!--                                <button type="button" class="open-modal" id="white1" data-value="Baihao Yinzhen">Купить</button>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
